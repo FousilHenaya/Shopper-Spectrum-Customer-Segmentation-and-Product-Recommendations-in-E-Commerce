@@ -28,7 +28,6 @@ This project segments customers based on RFM metrics and recommends products usi
 
 ## 📂 Dataset
 
-- **Source**: Online Retail dataset (2010–2011 transactions)
 - **Features**:
   - `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `CustomerID`, `Country`
 
@@ -76,12 +75,14 @@ This project segments customers based on RFM metrics and recommends products usi
 
 ## 📁 Files Included
 
-| File                          | Description                           |
-|-------------------------------|----------------------------------------|
-| `app.py` / `clustering_app.py`| Streamlit dashboard                    |
-| `rfm_kmeans_model.pkl`        | Saved model + scaler + segment labels |
-| `product_similarity_matrix.pkl` | Cosine similarity matrix              |
-| `online_retail.csv`           | Original dataset                       |
+| File                            | Description                            |
+|------------------------------  -|----------------------------------------|
+| `SHOPPERSPECTRUM.ipynb`         | Streamlit dashboard                    |
+| `shopperstreamlit.py`           | Streamlit dashboard                    |
+| `rfm_kmeans_model.pkl`          | Saved model + scaler + segment labels  |
+| `product_similarity_matrix.pkl` | Cosine similarity matrix               |
+| `online_retail.csv`             | Original dataset                       |
+
 
 ---
 
@@ -94,19 +95,6 @@ This project segments customers based on RFM metrics and recommends products usi
 
 ---
 
-## 🚀 How to Run
-
-1. Clone the repo
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3. Run the app:
-```bash
-streamlit run app.py
-```
-
----
 
 ## ✅ Business Use Cases
 
@@ -117,7 +105,3 @@ streamlit run app.py
 
 ---
 
-## 🧠 Author
-
-> 📘 Project by **[Your Name]**  
-> Guided by **Shadiya, Nehlath Harmain, Nilofer Mubeen**

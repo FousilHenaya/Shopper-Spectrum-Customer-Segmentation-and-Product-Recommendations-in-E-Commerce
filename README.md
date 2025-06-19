@@ -104,4 +104,7 @@ This project segments customers based on RFM metrics and recommends products usi
 - 📊 Inventory & Pricing Strategies
 
 ---
+![image](https://github.com/user-attachments/assets/5b15089b-e79f-428e-9f84-28005c7e1bfc)
+![image](https://github.com/user-attachments/assets/1b397548-185d-49d1-82e5-53661af39cdd)
+
 
